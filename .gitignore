@@ -1,0 +1,6 @@
+.rope*
+__pycache__/*
+settings.py
+build/*
+setup.py
+*.secret
