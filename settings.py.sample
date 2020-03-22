@@ -4,3 +4,6 @@ app_name = "some cool name"
 instance_url = "https://mastodon.social"
 email = "the registered email"
 password = "the mastodon password"
+gotify_url = "url of gotify server"
+gotify_token = "gotify token"
+gotify_header = {'X-Gotify-Key': gotify_token}
