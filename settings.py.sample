@@ -2,10 +2,21 @@
 from mastodon import Mastodon
 import requests
 import time
+import os
+# Name of the app as seen by mastodon
 app_name = "some cool name"
+# The URL of your mastodon instance
 instance_url = "https://mastodon.social"
+# The email you used to register on mastodon
 email = "the registered email"
+# The password for your mastodon account
 password = "the mastodon password"
+# The url to your gotify server
 gotify_url = "url of gotify server"
+# The app token on your gotify server
 gotify_token = "gotify token"
+# Leave as it is
 gotify_header = {'X-Gotify-Key': gotify_token}
+# A file were the program writes the number of conversations. Useful if you want to
+# display with conky or a statusbar
+path = ""
