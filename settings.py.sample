@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 from mastodon import Mastodon
+import requests
+import time
 app_name = "some cool name"
 instance_url = "https://mastodon.social"
 email = "the registered email"
